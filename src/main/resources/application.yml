@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:h2:file:./data/menu;AUTO_SERVER=TRUE
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  data:
+    redis:
+      host: localhost
+      port: 6379
+menu:
+  cache-ttl: 10m
