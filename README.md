@@ -74,6 +74,10 @@ Script dùng Redis CLI để in key ở ba thời điểm:
 - Ngay sau PUT: `GET menuCache::1` trả `(nil)`.
 - Sau GET lần cuối: key được tạo lại, chứa giá 75000.
 
+### Ảnh chụp kiểm chứng
+
+![Redis CLI trước và sau khi cập nhật](screenshots/redis-cache-evict.png)
+
 ## 6. Lệnh kiểm tra thủ công
 
 ```bash
