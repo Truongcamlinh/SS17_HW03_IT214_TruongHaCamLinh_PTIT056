@@ -1,7 +1,5 @@
 # SS17_HW03 - Đảm bảo nhất quán dữ liệu với @CacheEvict
 
-**Sinh viên:** Trương Hà Cẩm Linh - **Mã sinh viên:** PTIT056
-
 ## 1. Cache-Aside cho GrabFood
 
 GrabFood dùng database làm nguồn dữ liệu chính và Redis để tăng tốc API đọc giá món ăn. Luồng đọc:
